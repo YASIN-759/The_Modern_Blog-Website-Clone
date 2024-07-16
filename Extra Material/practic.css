@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(grey,purple);
+}
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.cursor2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: all ease 0.1s;
+}

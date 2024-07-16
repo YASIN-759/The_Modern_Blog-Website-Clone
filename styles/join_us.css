@@ -1,0 +1,324 @@
+@media screen and (max-width:991px) {
+    
+    .join_us {
+        height: auto;
+        width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: var(--color-primary);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .join_us_pad {
+        width: 100%;
+        height: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .card {
+        border-radius: 25px;
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255,255,255,0.1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .layer {
+        position: absolute;
+        filter: blur(6px);
+    }
+    
+    #layer1 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(43, 95, 226);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(35deg);
+    }
+    
+    #layer2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(43, 51, 147);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(33deg);
+    }
+    
+    #layer3 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(22, 39, 85);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(31deg);
+    }
+    
+    #layer4 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(69, 102, 247);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(29deg);
+    }
+    
+    .card_heading > h1 {
+        font-size: var(--size-5xl);
+        font-family: 'poppins';
+        font-weight: 200;
+        margin-bottom: 1rem;
+    }
+    
+    .card_heading > p {
+        font-size: var(--size-xs);
+        color: gray;
+    }
+    
+    .card_input {
+        align-items: center;
+        margin-top: 2rem;
+        width: 300px;
+        height: 8vh;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+        overflow: hidden;
+        padding-right: 1rem;
+        background-color: rgb(31, 35, 40);
+    }
+    
+    .card_input > input {
+        background-color: rgb(31, 35, 40);
+        width: 230px;
+        border: none;
+        outline: none;
+        font-family: 'Gilroy';
+        color: whitesmoke;
+        font-size: var(--size-sm);
+    }
+    
+    .submit_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 6vh;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+    
+    .submit_btn > .bx-right-arrow-alt {
+        font-size: var(--size-xl);
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    
+    .join_us_pad {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .card_heading > h1 {
+        font-size: var(--size-4xl);
+    }
+
+}
+
+@media screen and (max-width:555px) {
+    
+    .join_us_pad {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .card_heading > h1 {
+        font-size: var(--size-4xl);
+    }
+
+    .join_us_pad {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+@media screen and (max-width:445px) {
+    
+    .join_us_pad {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .card_heading > h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .join_us_pad {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    
+    .join_us {
+        height: auto;
+        width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: var(--color-primary);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .join_us_pad {
+        width: 100%;
+        height: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .card {
+        border-radius: 25px;
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255,255,255,0.1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .layer {
+        position: absolute;
+        filter: blur(6px);
+    }
+    
+    #layer1 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(43, 95, 226);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(35deg);
+    }
+    
+    #layer2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(43, 51, 147);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(33deg);
+    }
+    
+    #layer3 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(22, 39, 85);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(31deg);
+    }
+    
+    #layer4 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(69, 102, 247);
+        position: absolute;
+        left: 32%;
+        top: -150%;
+        transform-origin: 0% 0%;
+        transform: rotate(29deg);
+    }
+    
+    .card_heading > h1 {
+        font-size: var(--size-5xl);
+        font-family: 'poppins';
+        font-weight: 200;
+        margin-bottom: 1rem;
+    }
+    
+    .card_heading > p {
+        font-size: var(--size-xs);
+        color: gray;
+    }
+    
+    .card_input {
+        align-items: center;
+        margin-top: 2rem;
+        width: 300px;
+        height: 8vh;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+        overflow: hidden;
+        padding-right: 1rem;
+        background-color: rgb(31, 35, 40);
+    }
+    
+    .card_input > input {
+        background-color: rgb(31, 35, 40);
+        width: 230px;
+        border: none;
+        outline: none;
+        font-family: 'Gilroy';
+        color: whitesmoke;
+        font-size: var(--size-sm);
+    }
+    
+    .submit_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 6vh;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+    
+    .submit_btn > .bx-right-arrow-alt {
+        font-size: var(--size-xl);
+    }
+
+}
+
+@media screen and (min-wdith:1200px) {
+    
+}
+
+@media screen and (min-wdith:1279px) {
+    
+}

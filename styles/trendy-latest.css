@@ -1,0 +1,1180 @@
+@media  screen and (max-width:991px) {
+
+    .trendy_latest {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_latest_pad {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;   
+    }
+    
+    .toggle_div {
+        margin-bottom: 5rem;
+        border-radius: 34px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding: 0.5rem 1rem;
+        justify-content: space-between;
+        background-color: var(--color-light-primary);
+    }
+    
+    .button_div {
+        height: 100%;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        cursor: pointer;
+        
+    }
+    
+    .button_div > a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        transition: all ease 0.5s;
+        font-size: var(--size-xl);
+        font-weight: 600;
+    }
+    
+    .active {
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_content,
+    .latest_content {
+        transition: all ease 0.5s;
+        width: 100%;
+        height: 100%;
+    }
+
+    .latest_content {
+        display: none;
+    }
+    
+    .row1_col1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row2_col2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ts,
+    .tsa,
+    .ls,
+    .lsa {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        margin-bottom: 2.5rem;
+        border-radius: 20px;
+        padding: 2rem;
+        z-index: 1;
+        border: 1px solid var(--color-light-primary);
+    }
+    
+    .ts_overlay,
+    .ls_overlay {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to  top, rgb(13, 20, 42) 20%,rgba(255, 255, 255, 0) 80%);
+        z-index: 2;
+    }
+    
+    #ts1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #ls1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_upper_div,
+    .ls_upper_div {
+        height: 5rem;
+        align-items: center;
+        display: flex;
+        justify-content: right;
+        z-index: 3;
+    }
+    
+    .ts_lower_div,
+    .ls_lower_div {
+        z-index: 3;
+        height: 390px;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    
+    .row_1 {
+        z-index: 3;
+        border-bottom: 1px solid white;
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+    }
+    
+    .row_1 > h1 {
+        font-size: var(--size-5xl);
+        font-weight: 100;
+    }
+    
+    .ts_profile_info,
+    .ls_profile_info {
+        width: 20rem;
+        height: auto;
+        justify-content: right;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ts_profile_img,
+    .ls_profile_img {
+        height: 55px;
+        width: 55px;
+        margin-right: 1rem;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    #ts_profile_img1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    #ls_profile_img1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_profile_name > p,
+    .ls_profile_name > p {
+        font-weight: 600;
+        font-size: var(--size-md);
+    }
+    
+    .row_2 {
+        z-index: 3;
+        margin-top: 1rem;
+        justify-content: right;
+        display: flex;
+    }
+    
+    .row_2 > p {
+        font-size: var(--size-xl);
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .trendy_latest_pad {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;   
+    }
+
+    .latest_content {
+        display: none;
+    }
+
+    .row_1 {
+        flex-direction: column;
+    }
+    
+    .row_1 > h1 {
+        font-size: var(--size-4xl);
+    }
+    
+    .ts_profile_img,
+    .ls_profile_img {
+        height: 40px;
+        width: 40px;
+        margin-right: 0.5rem;
+        border: 1px solid white;
+    }
+
+    .ts_profile_info,
+    .ls_profile_info {
+        justify-content: center;
+    }
+    
+    #ts_profile_img1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_profile_name > p,
+    .ls_profile_name > p {
+        font-weight: 100;
+        font-size: var(--size-sm);
+    }
+    
+    .row_2 {
+        z-index: 3;
+        margin-top: 1rem;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .row_2 > p {
+        font-size: var(--size-md);
+    }
+
+
+}
+
+@media screen and (max-width:555px) {
+
+    .trendy_latest_pad {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;   
+    }
+
+    .latest_content {
+        display: none;
+    }
+
+    .row_1 > h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .ts_profile_img,
+    .ls_profile_img {
+        height: 35px;
+        width: 35px;
+    }
+    
+}
+
+@media screen and (max-width:445px) {
+ 
+    .trendy_latest_pad {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;   
+    }
+    
+    .latest_content {
+        display: none;
+    }
+
+    .ts,
+    .tsa,
+    .ls,
+    .lsa {
+        height: 70vh;
+        border-radius: 5px;
+    }
+
+    .ts_lower_div,
+    .ls_lower_div {
+        height: 290px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    
+    .latest_content {
+        display: none;
+    }
+
+    .trendy_latest {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_latest_pad {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;   
+    }
+    
+    .toggle_div {
+        margin-bottom: 5rem;
+        border-radius: 34px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding: 0.5rem 1rem;
+        justify-content: space-between;
+        background-color: var(--color-light-primary);
+    }
+    
+    .button_div {
+        height: 100%;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+    
+    .button_div > a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        transition: all ease 0.5s;
+        font-size: var(--size-xl);
+        font-weight: 600;
+    }
+    
+    .active {
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_content,
+    .latest_content {
+        transition: all ease 0.5s;
+        width: 100%;
+        height: 100%;
+    }
+
+    .latest_content {
+        display: none;
+    }
+    
+    .row1_col1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row2_col2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ts,
+    .tsa,
+    .ls,
+    .lsa {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        margin-bottom: 2.5rem;
+        border-radius: 20px;
+        padding: 2rem;
+        z-index: 1;
+    }
+    
+    .ts_overlay,
+    .ls_overlay {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to  top, rgb(13, 20, 42) 20%,rgba(255, 255, 255, 0) 80%);
+        z-index: 2;
+    }
+    
+    #ts1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #ts1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_upper_div,
+    .ls_upper_div {
+        height: 5rem;
+        align-items: center;
+        display: flex;
+        justify-content: right;
+        z-index: 3;
+    }
+    
+    .ts_lower_div,
+    .ls_lower_div {
+        z-index: 3;
+        height: 390px;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    
+    .row_1 {
+        z-index: 3;
+        border-bottom: 1px solid white;
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+    }
+    
+    .row_1 > h1 {
+        font-size: var(--size-5xl);
+        font-weight: 100;
+    }
+    
+    .ts_profile_info,
+    .ls_profile_info {
+        width: 20rem;
+        height: auto;
+        justify-content: right;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ts_profile_img,
+    .ls_profile_img {
+        height: 55px;
+        width: 55px;
+        margin-right: 1rem;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    #ts_profile_img1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_profile_name > p,
+    .ls_profile_name > p {
+        font-weight: 600;
+        font-size: var(--size-md);
+    }
+    
+    .row_2 {
+        z-index: 3;
+        margin-top: 1rem;
+        justify-content: right;
+        display: flex;
+    }
+    
+    .row_2 > p {
+        font-size: var(--size-xl);
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    
+    .trendy_latest {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_latest_pad {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;   
+    }
+    
+    .toggle_div {
+        margin-bottom: 5rem;
+        border-radius: 34px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding: 0.5rem 1rem;
+        justify-content: space-between;
+        background-color: var(--color-light-primary);
+    }
+    
+    .button_div {
+        height: 100%;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        
+    }
+    
+    .button_div > a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        transition: all ease 0.5s;
+        font-size: var(--size-xl);
+        font-weight: 600;
+    }
+    
+    .active {
+        background-color: var(--color-primary);
+    }
+    
+    .trendy_content,
+    .latest_content {
+        transition: all ease 0.5s;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .latest_content {
+        display: none;
+    }
+    
+    .row1_col1 {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .row2_col2 {
+        margin-top: 1rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ts,
+    .tsa,
+    .ls,
+    .lsa {
+        position: relative;
+        width: 30%;
+        height: 70vh;
+        margin-bottom: 0rem;
+        margin-right: 0.5rem;
+        border-radius: 20px;
+        padding: 1rem;
+        z-index: 1;
+        transition: all ease 0.5s;
+        overflow: hidden;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .ts:nth-child(3),
+    .ls:nth-child(3) {
+        margin-right: 0rem;
+    }
+    
+    .ts_overlay,
+    .ls_overlay {
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to  top, rgba(13, 20, 42, 0.759) 20%,rgba(255, 255, 255, 0) 80%);
+        z-index: 2;
+        transition: all ease 0.3s;
+    }
+    
+    #ts1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts3a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls3a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_upper_div,
+    .ls_upper_div {
+        height: 5rem;
+        align-items: center;
+        display:flex;
+        justify-content: right;
+        z-index: 3;
+    }
+    
+    .ts_lower_div,
+    .ls_lower_div {
+        z-index: 3;
+        height: 300px;
+        padding-bottom: 2rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: end;
+        opacity: 1;
+        transition: all ease 0.2s;
+    }
+
+    #ts_lower_div2,
+    #ts_lower_div3,
+    #ls_lower_div2,
+    #ls_lower_div3 {
+        opacity: 0;
+    }
+
+    .row_1 {
+        z-index: 3;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+    
+    .row_1 > h1 {
+        font-size: var(--size-3xl);
+        font-weight: 100;
+    }
+    
+    .ts_profile_info,
+    .ls_profile_info {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ts_profile_img,
+    .ls_profile_img {
+        height: 35px;
+        width: 35px;
+        margin-right: 0.5rem;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
+    
+    #ts_profile_img1 {
+        background-image: url(/image/0cean.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1 {
+        background-image: url(/image/ls1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img1a {
+        background-image: url(/image/ts1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img1a {
+        background-image: url(/image/ls1a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2 {
+        background-image: url(/image/beach.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2 {
+        background-image: url(/image/ls2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img2a {
+        background-image: url(/image/ts2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img2a {
+        background-image: url(/image/ls2a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4 {
+        background-image: url(/image/playground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4 {
+        background-image: url(/image/ls3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ts_profile_img4a {
+        background-image: url(/image/ts3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ls_profile_img4a {
+        background-image: url(/image/ls3a.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .ts_profile_name > p,
+    .ls_profile_name > p {
+        font-weight: 100;
+        font-size: var(--size-sm);
+    }
+    
+    .row_2 {
+        z-index: 3;
+        margin-top: 1rem;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .row_2 > p {
+        font-size: var(--size-md);
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+        
+    
+}
+
+@media screen and (min-width:1279px) {
+        
+    
+}
